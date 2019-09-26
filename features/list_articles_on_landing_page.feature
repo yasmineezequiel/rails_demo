@@ -13,5 +13,5 @@ Given the following articles exists
     When I am on the landing page 
     Then I should see "NEWS: Thomas Cook declared bankruptcy today"
     And I should see "firm's collapse leaves 150,000 stranded abroad!"
-    And I sould see "NEWS: First austronaut lands in Mars"
-    And I should see "Now in 2025 we have our first base in Mars"
+    And I should see "NEWS: First austronaut lands in Mars"
+    And I should see "Now in 2025 first group sets the first base!"
