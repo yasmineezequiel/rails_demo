@@ -1,6 +1,9 @@
-<% @articles.each do |article| %>
-    <h1><%= article.title%></h1>
-    <br>
-    <h4><%= article.content%></h4>
-    <br>
-<%end%>
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <%= article.title %><br />
+      <%= article.content %>
+    </li>
+  <% end %>
+</ul>
+<%= link_to 'Articles', controller: 'articles' %>
