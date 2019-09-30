@@ -6,7 +6,7 @@ Feature: Create articles
   Background:
     And I click "New Article" link
 
-  Scenario: Successfully create an article [Happy Path]
+  Scenario: Successfully create an article 
     When I fill in "Title" with "Learning Rails 5"
     And I fill in "Content" with "Excited about learning a new framework"
     And I click "Create Article" button
