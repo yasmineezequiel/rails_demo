@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :models
   get 'landing/index'
-    root controller: :landing, action: :index
-    resources :articles
+  resources :articles
+  root controller: :landing, action: :index
 end
